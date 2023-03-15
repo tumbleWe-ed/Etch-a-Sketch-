@@ -10,10 +10,19 @@
 </head>
 
 <body>
+    <div class="largeContainer">
+        <div class="heading">Etch-A-Sketch</div>
+
+        <div class="content-container">
+            <div class="button-container">
+                <button class="clear-btn" style="margin-right: 10px;">Clear</button>
+                <label for="grid-input">Grid Size :</label><input type="number" name="grid-input" id="grid-input">
+             <button class="generate-btn">Generate</button>     
+            </div>
+            <div class="grid-container" draggable="false"></div>
+        </div>
+
+        <div></div>
     <script src = "script.js" defer></script>
-    <div class="heading">Etch-A-Sketch</div>
-    <div class="container">
-        <div class="grid-container" draggable="false"></div>
-    </div>
 </body>
 </html>
